@@ -7,7 +7,6 @@ namespace Factura.App_Code
 {
     public class DBFactura
     {
-
         
 
     }

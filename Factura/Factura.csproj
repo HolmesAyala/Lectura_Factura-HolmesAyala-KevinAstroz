@@ -156,7 +156,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\Conexion.cs" />
+    <Compile Include="App_Code\DBConexion.cs" />
+    <Compile Include="App_Code\DBFactura.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -180,6 +181,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Image\Ejemplo1.jpg" />
+    <Content Include="Image\Ejemplo2.jpg" />
+    <Content Include="Image\Ejemplo3.jpg" />
+    <Content Include="Image\Ejemplo4.jpg" />
     <Content Include="Image\Logo.svg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -202,6 +207,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\MasterPage\MasterPage.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\p5.min.js" />
     <Content Include="Scripts\popper.min.js" />
     <Content Include="Scripts\SubirFactura\SubirFactura.js" />
     <Content Include="Web.config" />
@@ -221,6 +227,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="FilesFacturas\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
