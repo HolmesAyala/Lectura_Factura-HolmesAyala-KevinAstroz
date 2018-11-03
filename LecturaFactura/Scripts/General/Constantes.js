@@ -1,0 +1,4 @@
+﻿
+const MENSAJE_CORRECTO = 2;
+const MENSAJE_ALERTA = 1;
+const MENSAJE_INFORMATIVO = 3;

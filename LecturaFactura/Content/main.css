@@ -1,0 +1,24 @@
+﻿body {
+}
+
+.max-width-form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.material-icons{
+    font-size: 32px;
+    display: flex;
+}
+
+input:disabled, button:disabled {
+    cursor: not-allowed;
+}
+
+.red-lighten-4 {
+    background-color: #ffcdd2;
+}
