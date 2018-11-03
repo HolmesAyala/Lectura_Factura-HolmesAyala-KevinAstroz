@@ -188,6 +188,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\General\RespuestasServer.js" />
     <Content Include="Scripts\General\ValidacionesCampos.js" />
+    <Content Include="Scripts\SubirFactura\SubirFactura.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -203,7 +204,9 @@
     <Content Include="Views\VerFactura\VerFactura.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Clases\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

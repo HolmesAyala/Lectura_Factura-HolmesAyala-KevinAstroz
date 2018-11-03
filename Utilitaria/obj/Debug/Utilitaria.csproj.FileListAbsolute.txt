@@ -1,0 +1,5 @@
+C:\Users\Buscar\Desktop\Factura\Lect\Utilitaria\bin\Debug\Utilitaria.dll
+C:\Users\Buscar\Desktop\Factura\Lect\Utilitaria\bin\Debug\Utilitaria.pdb
+C:\Users\Buscar\Desktop\Factura\Lect\Utilitaria\obj\Debug\Utilitaria.csproj.CoreCompileInputs.cache
+C:\Users\Buscar\Desktop\Factura\Lect\Utilitaria\obj\Debug\Utilitaria.dll
+C:\Users\Buscar\Desktop\Factura\Lect\Utilitaria\obj\Debug\Utilitaria.pdb
