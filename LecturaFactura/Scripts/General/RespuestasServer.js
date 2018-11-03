@@ -1,19 +1,29 @@
 ﻿
+//function mostrarMensaje(m) {
+//    var mensaje = $('<div/>');
+
+//    if (m.Estado == MENSAJE_CORRECTO) {
+//        mensaje.addClass("alert alert-success").removeClass("alert-danger");
+//    }
+//    else if (m.Estado == MENSAJE_ALERTA) {
+//        mensaje.addClass("alert alert-danger").removeClass("alert-success");
+//    }
+
+//    console.log(m.Mensaje);
+
+//    mensaje.text(m.Mensaje);
+
+//    $("#mensajes").append(mensaje);
+//}
+
 function mostrarMensaje(m) {
     var mensaje = $('<div/>');
 
-    if (m.Estado == MENSAJE_CORRECTO) {
-        mensaje.addClass("alert alert-success").removeClass("alert-danger");
-    }
-    else if (m.Estado == MENSAJE_ALERTA) {
-        mensaje.addClass("alert alert-danger").removeClass("alert-success");
-    }
+    mensaje.addClass("alert alert-success");
 
-    console.log(m.Mensaje);
+    mensaje.html(m);
 
-    mensaje.text(m.Mensaje);
-
-    $("#mensajes").append(mensaje);
+    $("#mensajes").html(mensaje);
 }
 
 function mostrarMensajeRespuestaPost(respuesta) {

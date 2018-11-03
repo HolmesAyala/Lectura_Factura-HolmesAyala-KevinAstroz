@@ -71,8 +71,10 @@ C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\bin\es\System.Web.Razor.reso
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\obj\Debug\LecturaFactura.csprojAssemblyReference.cache
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\obj\Debug\LecturaFactura.csproj.CoreCompileInputs.cache
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\obj\Debug\LecturaFactura.csproj.CopyComplete
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\obj\Debug\LecturaFactura.dll
 C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\obj\Debug\LecturaFactura.pdb
+C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\bin\Utilitaria.dll
+C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\bin\Utilitaria.pdb
+C:\Users\Buscar\Desktop\Factura\Lect\LecturaFactura\obj\Debug\LecturaFactura.csprojAssemblyReference.cache

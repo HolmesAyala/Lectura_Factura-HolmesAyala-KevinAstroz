@@ -17,15 +17,23 @@ namespace LecturaFactura.Controllers
         [HttpPost]
         public JsonResult cargarFactura(string Data)
         {
+            try
+            {
+                Utilitaria
 
-            return Json(Respuesta.newRespuesta(Respuesta.OK, "", Data));
+                return Json(Respuesta.newRespuesta(Respuesta.OK, "Factura subida", null));
+            }
+            catch (Exception ex)
+            {
+                return Json(Respuesta.newRespuesta(Respuesta.ERR, ex.Message, null));
+            }
         }
     }
 
     public class Respuesta
     {
         public const int OK = 1;
-        public const int ERR = 1;
+        public const int ERR = 2;
 
         private Respuesta()
         {

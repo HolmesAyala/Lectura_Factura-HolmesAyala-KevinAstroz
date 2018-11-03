@@ -1,6 +1,4 @@
 ﻿
-
-
 var FormCargarArchivo = $("#FormCargarArchivo");
 
 FormCargarArchivo.submit(
@@ -15,26 +13,41 @@ FormCargarArchivo.submit(
         if (cantidadArchivos == selecionoArchivo) {
             var archivo = campoArchivo.files[0];
 
-            /* Seria usada de la siguiente manera */
-            getBase64FromFile(archivo, function (base64) {
-                console.log(base64);
-            });
-
-            var form_data = new FormData();
-            form_data.append("Data", archivo);
-
             console.log(archivo);
 
-            var url = "/SubirFactura/cargarFactura";
-
-            //$.post(url, form_data).done(
-            //    function (respuesta) {
-            //        console.log(respuesta);
-            //    }
-            //).fail(mostrarErrorRespuestaPost);
+            if (tipoArchivoValido(archivo)) {
+                getBase64FromFile(archivo, function (base64) {
+                    enviarFactura(base64);
+                });
+            }
+            else {
+                mostrarMensaje("Formato de archivo no valido");
+            }
         }
     }
 );
+
+function tipoArchivoValido(archivo) {
+    var tiposValidos = ["image/jpeg"];
+
+    return tiposValidos.includes(archivo.type);
+}
+
+function enviarFactura(facturaBase64) {
+    var url = "/SubirFactura/cargarFactura";
+
+    var data = { Data: facturaBase64};
+
+    $.post(url, data).done(
+        function (respuesta) {
+            if (respuesta.Estado == MENSAJE_CORRECTO) {
+
+            }
+
+            mostrarMensajeRespuestaPost(respuesta);
+        }
+    ).fail(mostrarErrorRespuestaPost);
+}
 
 function getBase64FromFile(img, archivoBase64) {
     let fileReader = new FileReader();
